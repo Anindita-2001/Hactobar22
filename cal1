@@ -1,0 +1,33 @@
+import java.util.*;
+class cal1
+{
+	public static void main(String args[])
+	{
+		System.out.println("1.Addition\n2.Subtraction\n3.Multiplication");
+		Scanner sc=new Scanner(System.in);
+		int value=sc.nextInt();
+		System.out.println("Enter two values");
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		switch(value)
+		{
+			case 1:	
+				int addition=a+b;
+				System.out.println("sum equals to "+addition);
+				break;
+			case 2:
+				int subtraction=a-b;
+				System.out.println("Subtraction equals to "+subtraction);
+				break;
+			case 3:
+				int multi=a*b;
+				System.out.println("Multiplication equals to "+multi);
+				break;
+			default:
+				System.out.println("Love u");		
+		} 
+	}
+}	
+				
+				
+		
